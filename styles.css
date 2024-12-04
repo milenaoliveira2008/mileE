@@ -1,0 +1,10 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("carrossel.css");
+@import url("tópicos.css");
+@import url("contato.css");
+@import url("rodapé.css");
+:root {
+    background-color:#D8BFD8;
+
+}

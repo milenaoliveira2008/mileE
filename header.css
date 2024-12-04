@@ -1,0 +1,47 @@
+.cabeçalho-menu-amburguer{
+    width: 35px ;
+    height: 35px ; 
+    background-image: url("menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+.cabeçalho{
+    background-color:#DDA0DD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.caixa{
+    display: flex;
+    align-items: center;
+}
+.caixa-imagem{
+    padding: 1em;
+    width: 15px ;
+    height: 15px ;
+}
+.lista-menu{
+    display: none;
+    position: absolute;
+    top:100%;
+    width: 15vw;
+}
+.caixa-botao:checked~.lista-menu{
+    display: block;
+}
+.lista-menu-titulo,
+.lista-menu-itens{
+    padding: 1em ;
+    background-color:yellow;
+    color:#860bdf;
+}
+.lista-menu-link{
+    text-transform: uppercase;
+}
+.caixa-botao{
+    display: none;
+}
+
+ 

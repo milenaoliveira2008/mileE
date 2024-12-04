@@ -1,0 +1,33 @@
+.banner{
+    background-color: #4B0082;
+    color: white;
+    text-align: center;
+    padding: 2.5em 2em;
+
+}
+.banner-titulo{
+    font-size: 50px;
+}
+.banner-texto{
+    font-size: 22px ;
+    margin: 1em 0;
+}
+.banner-pesquisa{
+    font-size: 15px;
+}
+.cadastro{
+    display: inline-block;  
+}
+.banner-pesquisa{
+    background-color: transparent;
+    border: 2px solid;
+    color: white;
+    border-radius: 24px;
+    padding: 1em;
+    width: 70%;}
+  .banner-pesquisa::placeholder{
+    text-align: center;
+    color:white;
+    background: url("../img/lupa.svg") no-repeat;
+    background-position: 1em;
+  }

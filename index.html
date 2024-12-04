@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escporte Clube</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="styles.css">
+   
+
+</head>
+<body>
+  <header class="cabeçalho">
+    <div class=caixa>
+        <input type="checkbox" id="menu" class="caixa-botao">
+        <label for="menu">
+    <span class="cabeçalho-menu-amburguer caixa-imagem"></span></label>
+    <ul class="lista-menu">
+        <li class="lista-menu-titulo">A arte de relaxar</li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link">Yoga</a>
+        </li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link">Meditação</a>
+        </li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link">Ginástica</a>
+        </li>
+        <li class="lista-menu-itens"><a href="#" class="lista-menu-link">Skincare</a>
+        </li>
+    </ul>
+    <a href="#"><img class=caixa-imagem src="carrinho de compras.svg" alt="carrinho de compras"></a></div>
+   
+    <div class=caixa><a href="#"><li class="cadastro">CADASTRO</li></a><a href="#"><img  class=caixa-imagem src="home.svg" alt="home"></a>
+    <a href="#" ><img  class=caixa-imagem src="meus favoritos.svg" alt="meus favoritos"></a></div>
+</header>
+<section class="banner">
+    <h2 class="banner-titulo"> Você Já sabe por onde começar?</h2>
+    <p class="banner-texto"> Saiba mais sobre como melhorar a sua vida!</p>
+    <input type="search" class="banner-pesquisa" 
+   placeholder="Qual a sua experiência favorita?">
+</section>
+<section class="carrossel">
+    <h2 class="carrossel-titulo"> CONHEÇA O SEU LAZER!</h2>
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="skin.jpg" alt="Skincare"></div>
+      <div class="swiper-slide"><img src="meditacao.webp" alt="Meditação"></div>
+      <div class="swiper-slide"><img src="loiras.jpg" alt="Ginástica"></div>
+      <div class="swiper-slide"><img src="yoga.webp" alt="Yoga"></div>
+      <div class="swiper-slide"><img src="paint.jpg" alt="Pintura"></div>
+      <div class="swiper-slide"><img src="argila.webp" alt="Ar"></div>
+    </div>
+   
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="card">
+                <!-- 1º linha -->
+      <div class="card-descrição">
+        <!-- 1º coluna -->
+        <div class="descrição">
+          <h3 class="decrição-titulo"> SAIBA MAIS SOBRE O NOSSO ESPAÇO DE LAZER,
+             AQUI A DIVERSÃO É GARANTIDA PARA VOCÊ, SUA FAMÍLIA E SEUS AMIGOS.</h3>
+
+             <h2 Class="descrição-piscina"> COM MUITAS ATIVIDADES COMO PINTURAS EM TELA, ESCULTURAS EM ARGILA E MUITO MAIS. </h2>
+
+             <p class="descriçã-texto">FIQUE POR DENTRO DAS NOVIDADES E PROMOÇÕES. </p> </div>
+             <!-- 2º coluna -->
+              <img src="O que você gostaria de fazer__20241028_082746_0000.jpg" class="descrição-imagem">
+      </div>
+      <!-- 2º linha -->
+       <div class="card-botões">
+         <!-- 1º coluna -->
+        <ul class="botões">
+          <li class="botões-item"><img src="meus favoritos.svg" alt="favoritar piscina"></li>
+          <li class="botões-item"><img src="carrinho de compras.svg" alt="adicionar no carrinho"></li>
+        </ul>
+        <!-- 2º coluna -->
+         <a href="#" class="botões-ancora">CONHEÇA NOSSAS ATIVIDADES</a>
+       </div>
+    </div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+</section>
+<section class="tópicos">
+  <h2 class= "tópicos-titulo"> TÓPICOS VISITADOS RECENTEMENTE</h2>
+  <ul class="tópicos-lista">
+<li class="tópicos-item"> <a href="#" class="tópicos-link">Skincare</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">Pintura</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">Argila</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">Yoga</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">Ginástica</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">Meditação</a></li>
+<li class="tópicos-item"> <a href="#" class="tópicos-link">Massagem</a></li>
+
+  </ul>
+
+</section>
+<section class="contato">
+<h2 class="contato-titulo">Fique por dentro das novidades!🕵️‍♀️</h2>
+<input type="email" placeholder="Cadastre seu e-mail" class="contato-email">
+</section>
+<hr />
+
+<footer class="rodapé"><h2 class="rodapé-titulo">WHATSAPP (44)98821-2372</h2></footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script> const swiper = new Swiper('.swiper', {
+    spaceBetween: 10, slidesPerView: 3,
+    pagination: { el: '.swiper-pagination',
+        type: 'bullets',},
+    });</script>
+</body>
+</html>
